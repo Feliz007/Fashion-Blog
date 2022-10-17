@@ -1,6 +1,6 @@
 package com.example.felix.FashionBlog.Repository;
 
-import com.enwerevincent.restblog.Model.Comment;
+import com.example.felix.FashionBlog.Model.Comment;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

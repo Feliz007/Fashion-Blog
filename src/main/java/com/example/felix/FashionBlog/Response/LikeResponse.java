@@ -1,6 +1,6 @@
 package com.example.felix.FashionBlog.Response;
 
-import com.enwerevincent.restblog.Model.Like;
+import com.example.felix.FashionBlog.Model.Like;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 

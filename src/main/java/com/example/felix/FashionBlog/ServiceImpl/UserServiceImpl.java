@@ -1,19 +1,19 @@
 package com.example.felix.FashionBlog.ServiceImpl;
 
-import com.enwerevincent.restblog.DTO.*;
-import com.enwerevincent.restblog.Exception.PostAlreadyLikedException;
-import com.enwerevincent.restblog.Exception.PostNotFoundException;
-import com.enwerevincent.restblog.Exception.UserNotFoundException;
-import com.enwerevincent.restblog.Model.Comment;
-import com.enwerevincent.restblog.Model.Like;
-import com.enwerevincent.restblog.Model.Post;
-import com.enwerevincent.restblog.Model.User;
-import com.enwerevincent.restblog.Repository.CommentRepository;
-import com.enwerevincent.restblog.Repository.LikeRepository;
-import com.enwerevincent.restblog.Repository.PostRepository;
-import com.enwerevincent.restblog.Repository.UserRepository;
-import com.enwerevincent.restblog.Response.*;
-import com.enwerevincent.restblog.Service.UserService;
+import ccom.example.felix.FashionBlog.Model.Post;
+import com.example.felix.FashionBlog.Repository.CommentRepository;
+import com.example.felix.FashionBlog.Repository.LikeRepository;
+import com.example.felix.FashionBlog.Repository.PostRepository;
+import com.example.felix.FashionBlog.Repository.UserRepository;
+import com.example.felix.FashionBlog.Response.*;
+import com.example.felix.FashionBlog.Service.UserService;
+import com.example.felix.FashionBlog.DTO.*;
+import com.example.felix.FashionBlog.Exception.PostAlreadyLikedException;
+import com.example.felix.FashionBlog.Exception.PostNotFoundException;
+import com.example.felix.FashionBlog.Exception.UserNotFoundException;
+import com.example.felix.FashionBlog.Model.Comment;
+import com.example.felix.FashionBlog.Model.Like;
+import com.example.felix.FashionBlog.Model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

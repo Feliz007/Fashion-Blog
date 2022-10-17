@@ -1,8 +1,8 @@
 package com.example.felix.FashionBlog.Service;
 
-import com.enwerevincent.restblog.DTO.*;
-import com.enwerevincent.restblog.Model.Post;
-import com.enwerevincent.restblog.Response.*;
+import com.example.felix.FashionBlog.DTO.*;
+import com.example.felix.FashionBlog.Model.Post;
+import com.example.felix.FashionBlog.Response.*;
 
 import java.util.List;
 

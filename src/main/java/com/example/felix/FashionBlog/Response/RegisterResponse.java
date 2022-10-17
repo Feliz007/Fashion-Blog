@@ -1,6 +1,6 @@
 package com.example.felix.FashionBlog.Response;
 
-import com.enwerevincent.restblog.Model.User;
+import ccom.example.felix.FashionBlog.Model.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 

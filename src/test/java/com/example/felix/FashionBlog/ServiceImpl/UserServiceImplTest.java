@@ -23,6 +23,7 @@ import java.util.List;
 import java.util.Optional;
 
 import static java.time.Month.AUGUST;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 
 @SpringBootTest

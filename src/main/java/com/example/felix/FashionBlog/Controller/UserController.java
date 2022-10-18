@@ -1,11 +1,11 @@
 package com.example.felix.FashionBlog.Controller;
 
-import ccom.example.felix.FashionBlog.Response.*;
 import com.example.felix.FashionBlog.DTO.CommentDto;
 import com.example.felix.FashionBlog.DTO.LikeDto;
 import com.example.felix.FashionBlog.DTO.PostDto;
 import com.example.felix.FashionBlog.DTO.UserDto;
 import com.example.felix.FashionBlog.Model.Post;
+import com.example.felix.FashionBlog.Response.*;
 import com.example.felix.FashionBlog.Service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -48,7 +48,7 @@ public class UserController {
     }
 
     @PostMapping(value = "/comment/{user_id}/{post_id}")
-    public ResponseEntity<CommentResponse> comment(@PathVariable(value = "user_id") Integer user_id, @PathVariable(value = "post_id") Integer post_id,  @RequestBody CommentDto commentDto){
+    public ResponseEntity<CommentResponse> comment(@PathVariable(value = "user_id") Integer user_id, @PathVariable(value = "post_id") Integer post_id, @RequestBody CommentDto commentDto){
         log.info("Successfully commented :  {} " , commentDto.getComment());
       //  URI uri = URI.create(ServletUriComponentsBuilder.fromCurrentContextPath().path("/api/comment").toUriString());
       //  return ResponseEntity.created(uri).body();

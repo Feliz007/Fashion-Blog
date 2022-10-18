@@ -3,6 +3,7 @@ package com.example.felix.FashionBlog.Controller;
 import com.example.felix.FashionBlog.Exception.PostAlreadyLikedException;
 import com.example.felix.FashionBlog.Exception.PostNotFoundException;
 import com.example.felix.FashionBlog.Exception.UserNotFoundException;
+import com.example.felix.FashionBlog.Response.ExceptionResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
